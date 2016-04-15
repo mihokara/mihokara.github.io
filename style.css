@@ -40,6 +40,14 @@ nav ul {
   text-shadow: 1px 1px 0px #ffc0cb;
 }
 
+table.table-striped tr:nth-child(odd) {
+  background-color: #e9967a;
+}
+
+table.table-striped tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
 footer {
   padding: 20px 0 ;
   font-size: 93%;
